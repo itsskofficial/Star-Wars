@@ -13,7 +13,7 @@ function App() {
     setIsLoading(true);
     setError(null);
     try {
-      const response = await fetch('https://star-wars-a54f2-default-rtdb.firebaseio.com/response.json()');
+      const response = await fetch('https://star-wars-a54f2-default-rtdb.firebaseio.com/movies.json');
       if (!response.ok) {
         throw new Error('Something went wrong!');
       }
