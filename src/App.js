@@ -18,6 +18,7 @@ async function App() {
       setMovies(moviesList)
     }
   }
+}
 
   return (
     <React.Fragment>
@@ -29,5 +30,6 @@ async function App() {
       </section>
     </React.Fragment>
   );
+}
 
 export default App;
