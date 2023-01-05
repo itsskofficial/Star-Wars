@@ -12,7 +12,7 @@ function App() {
     fetchMoviesHandler()
   }, [fetchMoviesHandler])
   
-  async function fetchMoviesHandler() {
+  const fetchMoviesHandler() {
     setIsLoading(true)
     setError(null)
     try {
