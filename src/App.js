@@ -4,6 +4,7 @@ import MoviesList from './components/MoviesList';
 import './App.css';
 
 function App() {
+  const [movies,setMovies] = useSta([])
   const fetchMoviesHandler = () => {
     fetch("https://swapi.dev/api/films").then((response) => {
       return response.json()
