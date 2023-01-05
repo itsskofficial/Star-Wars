@@ -43,7 +43,9 @@ function App() {
     fetch('https://star-wars-a54f2-default-rtdb.firebaseio.com/movies.json', {
       method: "POST",
       body: JSON.stringify(movie),
-      headers: 
+      headers: {
+        
+      }
     });
   }
 
