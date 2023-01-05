@@ -7,8 +7,7 @@ function App() {
   const [movies,setMovies] = useState([])
   const fetchMoviesHandler = () => {
     const response= await  fetch("https://swapi.dev/api/films")
-   .then((response) => {
-      return response.json()
+   .const data = await )
     }).then((data) => {
       const moviesList = data.results.map((result) => {
         return {
