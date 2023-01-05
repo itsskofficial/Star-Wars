@@ -39,7 +39,7 @@ function App() {
     fetchMoviesHandler();
   }, [fetchMoviesHandler]);
 
-  function addMovieHandler(movie) {
+  async function addMovieHandler(movie) {
     fetch('https://star-wars-a54f2-default-rtdb.firebaseio.com/movies.json', {
       method: "POST",
       body: JSON.stringify(movie),
