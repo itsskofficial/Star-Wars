@@ -48,7 +48,6 @@ function App() {
       }
     });
     const data = await response.json()
-    
   }
 
   let content = <p>Found no movies.</p>;
