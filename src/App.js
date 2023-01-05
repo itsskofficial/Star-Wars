@@ -16,7 +16,7 @@ function App() {
           openingText: result.opening_crawl
         }
       })
-        return moviesList
+        ist
     })
   }
   const dummyMovies = [
