@@ -18,7 +18,7 @@ function App() {
         }
       })
     setMovies(moviesList)
-    setI
+    setIsLoading(false)
     }
 
 
@@ -28,7 +28,7 @@ function App() {
         <button onClick={fetchMoviesHandler}>Fetch Movies</button>
       </section>
       <section>
-        <MoviesList movies={movies} />
+        {<MoviesList movies={movies} />
       </section>
     </React.Fragment>
   );
