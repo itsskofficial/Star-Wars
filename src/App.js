@@ -17,8 +17,7 @@ async function App() {
       })
       setMovies(moviesList)
     }
-  }
-}
+
 
   return (
     <React.Fragment>
