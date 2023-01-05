@@ -21,7 +21,9 @@ function App() {
       const data = await response.json();
 
       const loadedMovies = []
-      for (key in data)
+      for (key in data) {
+        
+      }
       
 
       const transformedMovies = data.results.map((movieData) => {
