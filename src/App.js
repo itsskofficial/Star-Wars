@@ -25,7 +25,8 @@ function App() {
         loadedMovies.push({
           id: key,
           title: data[key].title,
-          openingText:data[key]
+          openingText: data[key].openingText,
+          releaseDate:
         })
         
       }
