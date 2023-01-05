@@ -12,7 +12,7 @@ function App() {
     fetchMoviesHandler()
   }, [fetchMoviesHandler])
   
-  const fetchMoviesHandler= {
+  const fetchMoviesHandler =
     useCallback(async () => {
       setIsLoading(true)
       setError(null)
