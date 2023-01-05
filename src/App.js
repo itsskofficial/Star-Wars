@@ -29,6 +29,5 @@ async function App() {
       </section>
     </React.Fragment>
   );
-}
 
 export default App;
