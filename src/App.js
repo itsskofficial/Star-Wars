@@ -12,7 +12,7 @@ function App() {
   const fetchMoviesHandler = useCallback(async () => {
     setIsLoading(true);
     setError(null);
-    
+
     try {
       const response = await fetch('https://star-wars-a54f2-default-rtdb.firebaseio.com/movies.json');
       if (!response.ok) {
