@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 import MoviesList from './components/MoviesList';
 import './App.css';
 
-async function App() {
+function App() {
   const [movies,setMovies] = useState([])
-  const fetchMoviesHandler = () => {
+  async const fetchMoviesHandler = () => {
     const response = await fetch("https://swapi.dev/api/films")
     const data = await response.json()
     const moviesList = data.results.map((result) => {
