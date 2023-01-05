@@ -13,7 +13,9 @@ function App() {
     try {
       const response = await fetch("https://swapi.dev/api/films")
       const data = await response.json()
-      if (!response==)
+      if (!response.ok) {
+        
+      }
       const moviesList = data.results.map((result) => {
       return {
         id: result.episode_id,
