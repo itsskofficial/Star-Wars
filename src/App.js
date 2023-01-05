@@ -9,6 +9,7 @@ function App() {
     fetch("https://swapi.dev/api/films").then((response) => {
       return response.json()
     }).then((data) => {
+      const moviesList=
         return data.results
     })
   }
