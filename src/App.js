@@ -17,10 +17,10 @@ function App() {
         throw new Error("Something went wrong")
       }
       const moviesList = data.results.map((result) => {
-      return {
-        id: result.episode_id,
-        title: result.title,
-        openingText: result.opening_crawl
+        return {
+          id: result.episode_id,
+          title: result.title,
+          openingText: result.opening_crawl
         }
       })
       setMovies(moviesList)
@@ -29,6 +29,8 @@ function App() {
     catch (error) {
       setError(error.message)
     }
+    setIsLoading(false)
+  }
 
 
 
