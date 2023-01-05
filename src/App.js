@@ -33,6 +33,10 @@ function App() {
     setIsLoading(false)
   },[])
 
+  useEffect(() => {
+  fetchMoviesHandler()
+}, [fetchMoviesHandler])
+
   return (
     <React.Fragment>
       <section>
