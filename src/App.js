@@ -44,7 +44,7 @@ function App() {
       method: "POST",
       body: JSON.stringify(movie),
       headers: {
-        'Content-Type':appl
+        'Content-Type':'application/json'
       }
     });
   }
