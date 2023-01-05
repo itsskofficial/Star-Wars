@@ -9,8 +9,7 @@ function App() {
     const response= await  fetch("https://swapi.dev/api/films")
     const data = await response.json())=
     
-    }).then((data) => {
-      const moviesList = data.results.map((result) => {
+    const moviesList = data.results.map((result) => {
         return {
           id: result.episode_id,
           title: result.title,
