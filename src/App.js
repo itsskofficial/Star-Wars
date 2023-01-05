@@ -40,7 +40,7 @@ function App() {
   }, [fetchMoviesHandler]);
 
   function addMovieHandler(movie) {
-    fetch();
+    fetch('https://star-wars-a54f2-default-rtdb.firebaseio.com/movies.json');
   }
 
   let content = <p>Found no movies.</p>;
