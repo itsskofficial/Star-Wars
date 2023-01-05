@@ -34,8 +34,8 @@ function App() {
   },[])
 
   useEffect(() => {
-  fetchMoviesHandler()
-}, [fetchMoviesHandler])
+    fetchMoviesHandler()
+  }, [fetchMoviesHandler])
 
   return (
     <React.Fragment>
