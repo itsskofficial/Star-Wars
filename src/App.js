@@ -26,7 +26,7 @@ function App() {
           id: key,
           title: data[key].title,
           openingText: data[key].openingText,
-          releaseDate:
+          releaseDate:data[key].releaseDate
         })
         
       }
