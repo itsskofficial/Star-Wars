@@ -24,7 +24,6 @@ function App() {
         }
       })
       setMovies(moviesList)
-      setIsLoading(false)
     }
 
     catch (error) {
