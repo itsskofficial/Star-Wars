@@ -47,7 +47,7 @@ function App() {
         'Content-Type':'application/json'
       }
     });
-    
+    const data = await response.json()
   }
 
   let content = <p>Found no movies.</p>;
