@@ -26,7 +26,7 @@ function App() {
       }
       
 
-      const transformedMovies = data.results.map((movieData) => {
+      const transformedMovies = data.map((movieData) => {
         return {
           id: movieData.episode_id,
           title: movieData.title,
