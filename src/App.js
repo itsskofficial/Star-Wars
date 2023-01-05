@@ -40,7 +40,7 @@ function App() {
   }, [fetchMoviesHandler]);
 
   function addMovieHandler(movie) {
-    console.log(movie);
+    fetch();
   }
 
   let content = <p>Found no movies.</p>;
