@@ -16,7 +16,6 @@ function App() {
           openingText: result.opening_crawl
         }
       })
-        ist
     })
   }
   const dummyMovies = [
