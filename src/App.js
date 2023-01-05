@@ -24,7 +24,8 @@ function App() {
       for (const key in data) {
         loadedMovies.push({
           id: key,
-          title:data[key]
+          title: data[key].title,
+          openingText:data[key]
         })
         
       }
