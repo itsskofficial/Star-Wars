@@ -23,7 +23,7 @@ function App() {
   return (
     <React.Fragment>
       <section>
-        <button>Fetch Movies</button>
+        <button onClick={fetchMoviesHandler}>Fetch Movies</button>
       </section>
       <section>
         <MoviesList movies={dummyMovies} />
