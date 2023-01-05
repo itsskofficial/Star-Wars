@@ -28,7 +28,6 @@ function App() {
           openingText: data[key].openingText,
           releaseDate:data[key].releaseDate
         })
-        
       }
       
 
