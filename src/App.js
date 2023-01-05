@@ -13,7 +13,7 @@ function App() {
     setIsLoading(true);
     setError(null);
     try {
-      const response = await fetch('https://swapi.dev/api/films/');
+      const response = await fetch('https://console.firebase.google.com/project/star-wars-a54f2/database/star-wars-a54f2-default-rtdb/data/~2F');
       if (!response.ok) {
         throw new Error('Something went wrong!');
       }
