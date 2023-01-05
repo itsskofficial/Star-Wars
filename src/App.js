@@ -13,7 +13,7 @@ function App() {
     setIsLoading(true);
     setError(null);
     try {
-      const response = await fetch('https://console.firebase.google.com/project/star-wars-a54f2/database/star-wars-a54f2-default-rtdb/data/~2F');
+      const response = await fetch('https://star-wars-a54f2-default-rtdb.firebaseio.com/');
       if (!response.ok) {
         throw new Error('Something went wrong!');
       }
