@@ -10,14 +10,14 @@ function App() {
     const data = await response.json())=
     
     const moviesList = data.results.map((result) => {
-        return {
-          id: result.episode_id,
-          title: result.title,
-          openingText: result.opening_crawl
+      return {
+        id: result.episode_id,
+        title: result.title,
+        openingText: result.opening_crawl
         }
       })
       setMovies(moviesList)
-    })
+    }
   }
 
   return (
