@@ -12,8 +12,8 @@ function App() {
     setError(null)
     try {
       const response = await fetch("https://swapi.dev/api/films")
-     const data = await response.json()
-      onst moviesList = data.results.map((result) => {
+      const data = await response.json()
+      const moviesList = data.results.map((result) => {
       return {
         id: result.episode_id,
         title: result.title,
