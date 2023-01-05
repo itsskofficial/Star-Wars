@@ -6,8 +6,8 @@ import './App.css';
 function App() {
   const fetchMoviesHandler = () => {
     fetch("https://swapi.dev/api/films").then(() => {
-      
-    })
+      return response.json()
+    }).then(())
   }
   const dummyMovies = [
     {
