@@ -11,7 +11,7 @@ function App() {
     }).then((data) => {
       const moviesList = data.results.map((result) => {
         id: result.episode_id,
-        
+        title: movie
       })
         return data.results
     })
