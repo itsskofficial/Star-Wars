@@ -12,7 +12,7 @@ function App() {
       const moviesList = data.results.map((result) => {
           id: result.episode_id,
           title: result.title,
-          openingText:
+          openingText:result.opening_crawl
       })
         return data.results
     })
