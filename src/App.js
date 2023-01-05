@@ -23,8 +23,10 @@ function App() {
         openingText: result.opening_crawl
         }
       })
+      setMovies(moviesList)
+      setIsLoading(false)
     }
-    }
+
 
 
   return (
