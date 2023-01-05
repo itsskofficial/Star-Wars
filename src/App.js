@@ -4,6 +4,7 @@ import MoviesList from './components/MoviesList';
 import './App.css';
 
 function App() {
+  const 
   const dummyMovies = [
     {
       id: 1,
