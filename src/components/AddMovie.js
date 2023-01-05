@@ -12,7 +12,7 @@ function AddMovie(props) {
 
         // could add validation here...
     const addMovieHandler = (event) => {
-      
+      fetch()
     }
     
     const movie = {
