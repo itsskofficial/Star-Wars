@@ -27,6 +27,10 @@ function App() {
       setIsLoading(false)
     }
 
+    catch (error) {
+      
+    }
+
 
 
   return (
