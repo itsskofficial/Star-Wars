@@ -8,7 +8,7 @@ function App() {
     fetch("https://swapi.dev/api/films").then(() => {
       return response.json()
     }).then((data) => {
-        
+        return data.results
     })
   }
   const dummyMovies = [
