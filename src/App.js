@@ -22,6 +22,9 @@ function App() {
 
       const loadedMovies = []
       for (const key in data) {
+        loadedMovies.push({
+          
+        })
         
       }
       
