@@ -4,7 +4,9 @@ import MoviesList from './components/MoviesList';
 import './App.css';
 
 function App() {
-  const 
+  const fetchMoviesHandler = () => {
+    fetch("https://swapi.dev/api/films")
+  }
   const dummyMovies = [
     {
       id: 1,
