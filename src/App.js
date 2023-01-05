@@ -35,8 +35,7 @@ function App() {
       setError(error.message)
     }
     setIsLoading(false)
-  }
-  )
+  },[])
 
   return (
     <React.Fragment>
