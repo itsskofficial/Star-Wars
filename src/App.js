@@ -3,10 +3,10 @@ import React, { useState } from 'react';
 import MoviesList from './components/MoviesList';
 import './App.css';
 
-function App() {
+async function App() {
   const [movies,setMovies] = useState([])
   const fetchMoviesHandler = () => {
-    const response= await  fetch("https://swapi.dev/api/films")
+    const response = await fetch("https://swapi.dev/api/films")
     const data = await response.json()
     const moviesList = data.results.map((result) => {
       return {
