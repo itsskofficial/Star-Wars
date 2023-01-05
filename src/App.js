@@ -10,7 +10,8 @@ function App() {
       return response.json()
     }).then((data) => {
       const moviesList = data.results.map((result) => {
-        id:
+        id: result.episode_id,
+        
       })
         return data.results
     })
