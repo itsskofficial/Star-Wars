@@ -9,6 +9,7 @@ function App() {
   const [error,setError] = useState(null)
   async function fetchMoviesHandler() {
     setIsLoading(true)
+    setError(null)
     const response = await fetch("https://swapi.dev/api/films")
     const data = await response.json()
     const moviesList = data.results.map((result) => {
