@@ -29,7 +29,17 @@ function App() {
             openingText: result.opening_crawl
           }
         })
-  })} {
+      }
+      setMovies(moviesList)
+    }
+
+    catch (error) {
+      setError(error.message)
+    }
+    setIsLoading(false)
+  }
+  )
+} {
 
   return (
     <React.Fragment>
