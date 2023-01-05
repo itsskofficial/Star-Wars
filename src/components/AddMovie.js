@@ -11,9 +11,6 @@ function AddMovie(props) {
     event.preventDefault();
 
         // could add validation here...
-    const addMovieHandler = (event) => {
-      fetch()
-    }
     
     const movie = {
       title: titleRef.current.value,
