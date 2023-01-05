@@ -24,9 +24,6 @@ function App() {
         }
       })
     }
-    
-    setMovies(moviesList)
-    setIsLoading(false)
     }
 
 
