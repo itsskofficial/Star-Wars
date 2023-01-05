@@ -15,7 +15,6 @@ function App() {
           title: result.title,
           openingText:result.opening_crawl
         )
-         
       })
         return data.results
     })
