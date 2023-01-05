@@ -22,6 +22,7 @@ function App() {
 
       const loadedMovies = []
       
+      
 
       const transformedMovies = data.results.map((movieData) => {
         return {
@@ -51,6 +52,7 @@ function App() {
       }
     });
     const data = await response.json()
+    console.log(data)
   }
 
   let content = <p>Found no movies.</p>;
