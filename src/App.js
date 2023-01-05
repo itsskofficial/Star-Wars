@@ -30,17 +30,6 @@ function App() {
           }
         })
   })} {
-    
-      setMovies(moviesList)
-    }
-
-    catch (error) {
-      setError(error.message)
-    }
-    setIsLoading(false)
-  }
-
-
 
   return (
     <React.Fragment>
