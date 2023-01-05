@@ -8,7 +8,9 @@ function App() {
   const [isLoading, setIsLoading] = useState(false)
   const [error,setError] = useState(null)
 
-  useEffect(())
+  useEffect(() => {
+    
+  })
   async function fetchMoviesHandler() {
     setIsLoading(true)
     setError(null)
