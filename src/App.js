@@ -11,17 +11,17 @@ function App() {
     setIsLoading(true)
     setError(null)
     try {
-      
-    }
-    const response = await fetch("https://swapi.dev/api/films")
-    const data = await response.json()
-    const moviesList = data.results.map((result) => {
+      const response = await fetch("https://swapi.dev/api/films")
+     const data = await response.json()
+      onst moviesList = data.results.map((result) => {
       return {
         id: result.episode_id,
         title: result.title,
         openingText: result.opening_crawl
         }
       })
+    }
+    
     setMovies(moviesList)
     setIsLoading(false)
     }
