@@ -11,7 +11,10 @@ function AddMovie(props) {
     event.preventDefault();
 
         // could add validation here...
-  const addMovieHandler
+    const addMovieHandler = (event) => {
+      
+    }
+    
     const movie = {
       title: titleRef.current.value,
       openingText: openingTextRef.current.value,
